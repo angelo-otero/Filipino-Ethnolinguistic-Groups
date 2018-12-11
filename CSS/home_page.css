@@ -1,0 +1,189 @@
+p {
+  color: #ffffff;
+}
+
+/*intro styles*/
+#intro {
+  background-color: #0C4473;
+  display: inline-flex;
+  top: 48px;
+  margin-bottom: 1.5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#home-page-image {
+  width: 65%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+#filipino-map {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
+
+#home-page {
+  width: 45%;
+  height: auto;
+  padding-top: 1%;
+  margin: 0 1%;
+}
+
+#home-page h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+#home-page h2 {
+  font-size: 2rem;
+}
+
+#home-page h3 {
+  margin-bottom: 2%;
+  margin-top: 0;
+}
+
+#home-page p {
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 1%;
+  font-size: 1.35rem;
+}
+
+/*article styles*/
+article {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #AA363F;
+  padding: 0 5%;
+  position: relative;
+  top: 25px;
+}
+
+section {
+  width: 30%;
+  margin: 0 1%;
+  padding: 0;
+}
+
+.section-images {
+  width: 100%;
+  height: 250px;
+  margin: .5%;
+}
+
+/*timeline styles*/
+#timeline {
+  background-color: #0C4473;
+  margin: 0;
+  display: inline-flex;
+  justify-content: space-around;
+  height: 1000px;
+}
+
+.timeline-container {
+  width: 20%;
+  height: 530px;
+  margin: 0 1%;
+  padding: .2%;
+  background-color: #16110C;
+  align-items: center;
+  box-shadow: 5px 5px 10px #16110C;
+  border: 5px solid #16110C;
+  border-radius: 15px 0 0 15px;
+}
+
+.timeline-container h2 {
+  text-align: center;
+  color: #FBD49E;
+  padding: 1%;
+  height: 90px;
+}
+
+.timeline-info {
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  color: #16110C;
+  padding: .5%;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+
+
+/*#history-started {
+  position: relative;
+  top: 520px;
+}
+
+#first-contact {
+  position: relative;
+  top: 1040px;
+}
+
+#spanish-era {
+  position: relative;
+  top: 1560px;
+}*/
+
+/*sub-group styles*/
+#subgroup-info {
+  display: inline-flex;
+  text-align: center;
+  background-color: #AA363F;
+  justify-content: center;
+}
+
+.subgroup-container {
+  width: 35%;
+  height: auto;
+}
+
+.subgroup-container p {
+  height: 300px;
+}
+
+.subgroup-banner {
+  width: 100%;
+  height: 300px;
+  margin: 1%;
+  justify-content: center;
+  padding: 0;
+}
+
+#subgroup-explanation {
+  background-color: #AA363F;
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  padding-top: 3%;
+  padding-bottom: 0;
+  font-family: "Playfair Display Sc"
+}
+
+.subgroup-gallery {
+  justify-content: center;
+  display: inline-flex;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  left: 1%;
+  right: 1%;
+}
+
+.gallery-image {
+  margin: 0 2%;
+  width: 33%;
+  margin: 2%;
+  height: 100px;
+}
+
+
+.subgroup-gallery img {
+  width: 100%;
+  height: 100px;
+}
